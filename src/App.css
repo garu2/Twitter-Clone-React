@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap');
+
+@font-face {
+  font-family:"TwitterChirp";
+  src: url("./assets/twitterchirp.ttf") format("truetype");
+}
+body {
+  /* font-family: "TwitterChirp"; */
+  font-family: 'Syne', sans-serif;
+}
+
+.App {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar-left ul {
+  list-style: none;
+}
+.sidebar-left ul li a{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+}
