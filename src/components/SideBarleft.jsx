@@ -22,6 +22,7 @@ const SideBarleft = () => {
                 <li><a href="#"><img src={List} alt="" />List</a></li>
                 <li><a href="#"><img src={Profile} alt="" />Profile</a></li>
                 <li><a href="#"><img src={More} alt="" />More</a></li>
+                <li><a href="#">Tweet</a></li>
             </ul>
         </div>
     );
